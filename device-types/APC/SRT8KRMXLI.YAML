@@ -5,10 +5,10 @@ slug: smart-ups-srt-8000-va-rm
 part_number: srt8krmxli
 u_height: 6
 is_full_depth: true
-comments: https://www.apc.com/de/de/product/SRT8KRMXLI/apc-smartups-srt-8000-va-rm-230-v/
 weight:
   - value: 112
     units: kg
+comments: https://www.apc.com/de/de/product/SRT8KRMXLI/apc-smartups-srt-8000-va-rm-230-v/
 console-ports:
   - name: Serial
     type: rj-12
