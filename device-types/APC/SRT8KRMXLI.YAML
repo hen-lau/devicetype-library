@@ -24,7 +24,8 @@ console-ports:
     label: CONSOLE
 power-ports:
   - name: Inlet
-    type: hardwired   
+    type: hardwired
+    maximum_draw: 8000
 power-outlets:
   - name: Group 1 Outlet 1
     type: iec-60320-c19
