@@ -1,0 +1,65 @@
+---
+manufacturer: APC
+model: Smart-UPS SRT 8000 VA RM
+slug: smart-ups-srt-8000-va-rm
+part_number: srt8krmxli
+u_height: 6
+is_full_depth: true
+comments: https://www.apc.com/de/de/product/SRT8KRMXLI/apc-smartups-srt-8000-va-rm-230-v/
+weight:
+  - value: 112
+    units: kg
+console-ports:
+  - name: Serial
+    type: rj-12
+    lable: Serial
+  - name: Universal I/O
+    type: rj-12
+    lable: Universal I/O
+  - name: UPS USB
+    type: usb-b
+    lable: UPS USB
+  - name: USB
+    type: usb-a
+    lable: USB
+  - name: Console
+    type: usb-micro-a
+    lable: CONSOLE
+power-ports:
+  - name: Inlet
+    type: hardwired   
+power-outlets:
+  - name: Group 1 Outlet 1
+    type: iec-60320-c19
+    power_port: Inlet
+  - name: Group 1 Outlet 2
+    type: iec-60320-c19
+    power_port: Inlet
+  - name: Group 2 Outlet 1
+    type: iec-60320-c19
+    power_port: Inlet
+  - name: Group 2 Outlet 2
+    type: iec-60320-c19
+    power_port: Inlet
+  - name: Group 3 Outlet 1
+    type: iec-60320-c13
+    power_port: Inlet
+  - name: Group 3 Outlet 2
+    type: iec-60320-c13
+    power_port: Inlet
+  - name: Group 3 Outlet 3
+    type: iec-60320-c13
+    power_port: Inlet
+  - name: Group 3 Outlet 4
+    type: iec-60320-c13
+    power_port: Inlet
+  - name: Group 3 Outlet 5
+    type: iec-60320-c13
+    power_port: Inlet
+  - name: Group 3 Outlet 6
+    type: iec-60320-c13
+    power_port: Inlet
+interfaces:
+  - name: Management
+    type: 100base-tx
+    mgmt_only: true
