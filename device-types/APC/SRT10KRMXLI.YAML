@@ -5,7 +5,7 @@ slug: smart-ups-srt-10000-va-rm
 part_number: srt10krmxli
 u_height: 6
 is_full_depth: true
-comments: (https://www.apc.com/de/de/product/SRT10KRMXLI/apc-smartups-srt-10000-va-rm-230-v/)
+comments: [APC Website](https://www.apc.com/de/de/product/SRT10KRMXLI/apc-smartups-srt-10000-va-rm-230-v/)
 console-ports:
   - name: Serial
     type: rj-12
