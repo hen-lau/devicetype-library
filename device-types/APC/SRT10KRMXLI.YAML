@@ -1,0 +1,63 @@
+---
+manufacturer: APC
+model: Smart-UPS SRT 10000 VA RM
+slug: smart-ups-srt-10000-va-rm
+part_number: srt10krmxli
+u_height: 6
+is_full_depth: true
+comments: https://www.apc.com/de/de/product/SRT10KRMXLI/apc-smartups-srt-10000-va-rm-230-v/
+console-ports:
+  - name: Serial
+    type: rj-12
+    label: Serial
+  - name: Universal I/O
+    type: rj-12
+    label: Universal I/O
+  - name: UPS USB
+    type: usb-b
+    label: UPS USB
+  - name: USB
+    type: usb-a
+    label: USB
+  - name: Console
+    type: usb-micro-a
+    label: CONSOLE
+power-ports:
+  - name: Inlet
+    type: hardwired
+    maximum_draw: 10000
+power-outlets:
+  - name: Group 1 Outlet 1
+    type: iec-60320-c19
+    power_port: Inlet
+  - name: Group 1 Outlet 2
+    type: iec-60320-c19
+    power_port: Inlet
+  - name: Group 2 Outlet 1
+    type: iec-60320-c19
+    power_port: Inlet
+  - name: Group 2 Outlet 2
+    type: iec-60320-c19
+    power_port: Inlet
+  - name: Group 3 Outlet 1
+    type: iec-60320-c13
+    power_port: Inlet
+  - name: Group 3 Outlet 2
+    type: iec-60320-c13
+    power_port: Inlet
+  - name: Group 3 Outlet 3
+    type: iec-60320-c13
+    power_port: Inlet
+  - name: Group 3 Outlet 4
+    type: iec-60320-c13
+    power_port: Inlet
+  - name: Group 3 Outlet 5
+    type: iec-60320-c13
+    power_port: Inlet
+  - name: Group 3 Outlet 6
+    type: iec-60320-c13
+    power_port: Inlet
+interfaces:
+  - name: Management
+    type: 100base-tx
+    mgmt_only: true
