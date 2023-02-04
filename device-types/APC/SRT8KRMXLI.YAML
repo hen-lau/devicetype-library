@@ -12,19 +12,19 @@ weight:
 console-ports:
   - name: Serial
     type: rj-12
-    lable: Serial
+    label: Serial
   - name: Universal I/O
     type: rj-12
-    lable: Universal I/O
+    label: Universal I/O
   - name: UPS USB
     type: usb-b
-    lable: UPS USB
+    label: UPS USB
   - name: USB
     type: usb-a
-    lable: USB
+    label: USB
   - name: Console
     type: usb-micro-a
-    lable: CONSOLE
+    label: CONSOLE
 power-ports:
   - name: Inlet
     type: hardwired   
